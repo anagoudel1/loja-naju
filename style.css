@@ -9,19 +9,32 @@ body.pag-inicial {
 }
 
 .botoes img {
-    width: 400px;
+    width: 100px;
+}
+
+.duas-imagens{
+    display: flex;
+    width: 100%;
+}
+
+.duas-imagens img{
+    width: 100%;
+}
+
+.imagem {
+    width: 50%;
+    height: 550px;
+    overflow: hidden;
 }
 
 .botoes { 
     background-color: rgb(255, 255, 255);
-    margin-left: 30%;
-    margin-right: 30%;
-    margin-top: 10%;
+
 }
 
 div.botoes{
     border-radius: 50px;
-    padding: 50px;
+    padding: 40px;
 }
 
 .pag-inicial a{
@@ -29,8 +42,6 @@ div.botoes{
 }
 
 .botoes a {
-    display: flex;
-    flex-direction: column;
     background-color: rgb(245, 245, 245);
     color:rgb(0, 0, 0);
     text-decoration: none;
@@ -65,4 +76,10 @@ div.lado-direito {
     margin-top: 20px;
     padding: 5px;
     width: 155px;
+}
+
+.logo img { 
+    width: 300px;
+    margin: 9px;
+
 }
