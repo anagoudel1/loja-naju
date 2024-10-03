@@ -81,5 +81,36 @@ div.lado-direito {
 .logo img { 
     width: 300px;
     margin: 9px;
+}
+
+body.login {
+    display: flex;
+}
+
+.login{
+    color: rgb(118, 118, 118);
+}
+
+body.cadastro {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+}
+
+.cadastro{
+    color: rgb(118, 118, 118);
+}
+
+.cadastro img { 
+    width: 500px;
+    height: 700px;
+}
+
+.entrada{
+    background-color: rgb(255, 255, 255);
+    color: rgb(118, 118, 118);
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin: 200px;
+
 
 }
