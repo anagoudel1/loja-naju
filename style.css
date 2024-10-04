@@ -112,5 +112,25 @@ body.cadastro {
     text-align: center;
     margin: 200px;
 
+}
 
+.produto img{
+    width: 270px;
+    margin: 20px;
+
+}
+
+.produtos {
+    display: flex;
+    gap: 100px;
+
+}
+
+.produto {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+    color: rgb(118, 118, 118);
+    text-align: center;
+    flex-direction: column;
 }
